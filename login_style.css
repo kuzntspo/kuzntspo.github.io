@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: "Dancing Script", sans-serif;
+    overflow: hidden;
+    background-color: rgba(122, 99, 83, 0.927);
+}
+
+.container {
+    margin: 0px;   
+}
+.header {
+    background-color: rgba(179, 147, 126, 0.927);
+    margin: 0px;
+    margin-bottom: -30px;
+    
+}
+.nav {
+    color: rgb(60, 50, 40);
+    text-decoration: none;
+    position: relative;
+    top: -5px;
+    object-position: center;
+    vertical-align: text-bottom;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.header-line {
+    padding: 25px 40px;
+    display: flex;
+    margin: 0px;
+    padding-bottom: -20px;
+}
+
+a {
+    color: rgb(60, 50, 40);
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 10px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+a:hover:before {
+    clip: rect(0, 190px, 190px, 0);
+}
+a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: attr(data-content);
+    display: inline-block;
+    color: #ffffff;
+    width: 100%;
+    clip: rect(0, 0, 190px, 0);
+    -webkit-transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms;
+    transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms;
+}
+.background-login {
+    padding-top: 10px;
+    margin: 0;
+    background-image: url(1.jpg);
+    height: 88vh;
+    background-repeat: round;
+    background-size: 30%;
+    margin-bottom: -40px;
+}
+
+.container-login-form {
+    color: rgba(179, 147, 126, 0.927);
+    margin: 30%;
+    margin-top: 100px;
+    background-color: rgb(86, 72, 63);
+    background-size: cover;
+    width: 40%;
+    position: center;
+    text-align: center;
+}
+
+.elements-login {
+    color: rgba(179, 147, 126, 0.927);
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.send-button {
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(179, 147, 126, 0.927);
+    padding: 20px;
+    font-weight: 300;
+    
+}
+
+.down-line {
+    height: 2vh;
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    padding-bottom: 2%;
+}
+.bottom-items {
+    color: rgb(60, 50, 40);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    bottom: 0px;
+}
+
+.my-name {
+    color: rgb(60, 50, 40);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+.text-phone {
+    color: rgb(60, 50, 40);
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 50px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+.number-phone {
+    color: rgb(60, 50, 40);
+    text-decoration: none;
+    margin: 0px 0px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 14px;
+}

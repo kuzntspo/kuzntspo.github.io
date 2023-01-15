@@ -1,0 +1,162 @@
+body {
+    background-color: rgba(122, 99, 83, 0.927);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  
+  .wrapper {
+    padding: 0 40px;
+  }
+  
+  .header {
+    background-color: rgba(179, 147, 126, 0.927);
+  }
+  
+  .header__wrapper {
+    display: flex;
+    padding: 25px 40px;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: normal;
+    font-size: 30px;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu__item {
+    position: relative;
+    margin: 0 20px;
+  }
+ 
+  
+  a {
+    text-decoration: none;
+    color: rgb(60, 50, 40);
+  }
+
+  /*main*/
+  .list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    margin-top: 50px;
+    right: 200px;
+    background-color:rgba(179, 147, 126, 0.927);
+    color:rgb(60, 50, 40);
+  }
+
+
+  .preview__wrapper {
+    padding: 20px 0;
+    display: flex;
+  }
+
+  .preview_headder{
+    padding-top: 60px;
+    font-size: 30px;
+    margin-left: 130px;
+    text-align: center;
+    color:rgb(7, 6, 5)
+  }
+  
+  .preview_text{
+    margin-left: 170px;
+    text-align: center;
+    width: 600px;
+  }
+  .preview_text2{
+    margin-left: 170px;
+    text-align: center;
+    width: 600px;
+  }
+  
+  .preview__image{
+  
+    margin-top: 10px;
+    vertical-align: top;
+    border-radius: 10px
+  }
+
+ 
+  table{
+    color: black;
+    width: 50%;
+    border-width: 1px; /* Толщина рамки */
+    border-style: solid; /* Стиль рамки */
+    border-color: rgba(122, 99, 83, 0.927) ;
+    border-radius: 10px;
+    background: rgba(179, 147, 126, 0.927);
+    border: rgba(122, 99, 83, 0.927);
+}
+.table_db {
+  border: 3px;
+  border-color: black;
+  float:right;
+  caption-side: top;
+  margin-bottom: 100px;
+  border-collapse: separate;
+  left: 600px;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  position: absolute;
+  top: 165px;
+  right: -120px;
+  width: 50%;
+  
+}
+
+
+.table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+th {
+    padding: 10px; 
+    border: 1px solid rgba(122, 99, 83, 0.927);
+}
+
+td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid rgba(122, 99, 83, 0.927);
+    text-align: center;
+}
+
+  /*foot*/
+  .footer {
+    background-color:  rgb(179, 147, 126, 0.927);
+    color: rgb(60, 50, 40);
+    padding: 30px;
+    font-weight: 300;
+  }
+
+  
+  
+  .footer ul {
+    list-style: none;
+  }
+  
+  .footer-info__item {
+    margin: 10px 0;
+  }
+  
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
